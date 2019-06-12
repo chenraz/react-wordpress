@@ -59,13 +59,8 @@ wp plugin install --activate --force \
 
 rm -f ${acf_zip_file}
 
-# gutebnerg object plugin - resapi
-cd $(wp plugin path)/gutenberg-object-plugin
-composer install
-wp plugin activate gutenberg-object-plugin
-
-wp theme activate postlight-headless-wp
-wp theme delete twentysixteen twentyseventeen twentynineteen    
+wp theme activate tilnet-react
+wp theme delete twentynineteen    
 
 wp term update category 1 --name="Sample Category"
 wp menu create "Header Menu"
