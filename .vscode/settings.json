@@ -1,0 +1,11 @@
+{
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/wp-admin/**": true,
+        "**/wp-content/plugins/**": true,
+        "**/wp-content/themes/index.php**": true,
+        "**/wp-content/uploads/**": true,
+        "**/wp-includes/**": true,
+        "**frontend/.next/**": true
+    }
+} 

@@ -1,0 +1,10 @@
+{
+  "name": "react-wordpress",
+  "version": "1.0.0",
+  "repository": "git@gitlab.tilnet.co.il:chen/react-wordpress.git",
+  "author": "Chen Raz",
+  "license": "GPL 2.0",
+  "private": true,
+
+  "pre-push": []
+}

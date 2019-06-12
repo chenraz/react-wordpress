@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+yarn-error.log
+data
+yarn.lock
+.env
+nbproject
+Dockerfile
+frontend
+
