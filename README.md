@@ -93,11 +93,11 @@ Apache/PHP logs are available via `docker-compose logs -f wp-headless`.
 
 The `db-headless` container exposes MySQL on host port `3307`:
 
-    mysql -uwp_headless -pwp_headless -h127.0.0.1 -P3307 wp_headless
+    mysql -uwp_headless -p -h127.0.0.1 -P3307 wp_headless
 
 You can also run a mysql shell on the container:
 
-    docker exec db-headless mysql -hdb-headless -uwp_headless -pwp_headless wp_headless
+    docker container exec -it db-headless mysql -hdb-headless -uwp_headless -p wp_headless
 
 ## Reinstall/Import
 
