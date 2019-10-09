@@ -57,10 +57,9 @@ wp plugin install --activate --force \
     https://github.com/wp-graphql/wp-graphql-jwt-authentication/archive/v0.3.1.zip \
     /var/www/plugins/*.zip
 
-rm -f ${acf_zip_file}
+wp plugin activate tilnet-blocks
 
-wp theme activate tilnet-react
-wp theme delete twentynineteen    
+rm -f ${acf_zip_file}
 
 wp term update category 1 --name="Sample Category"
 wp menu create "Header Menu"
